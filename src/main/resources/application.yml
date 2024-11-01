@@ -1,0 +1,19 @@
+gg:
+  jte.development-mode: true
+
+spring:
+  application:
+    name: jte-demo
+  datasource:
+    url: jdbc:h2:mem:regisdb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 5051
